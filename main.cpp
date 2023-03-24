@@ -25,7 +25,7 @@ int main()
 			arr_vect.end(),
 			[](int& i)
 			{
-				bool check = i % 2 == 0 ? false : true;
+				bool check = i % 2 != 0;
 
 				if (check) i = i * 3;
 
